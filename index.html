@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Personal Portfolio</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/9714f98185.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div id="header">
+            <div class="container">
+                 <nav>
+                    <img src="images/logo-1.jpg" class="logo">
+                    <ul id="sidemenu">
+                        <li><a href="#header">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                    </ul>
+                    <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+                 </nav>
+                 <div class="header-text">
+                     <p>Welcome to my Portfolio!</p>
+                     <h1>Hi, I'm <span>Tejas</span> </h1> 
+                     <h1>And I'm a Frontend Developer</h1>
+                 </div>
+                </div>
+        </div>
+        <!-- -----------about---------- -->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/user-2.jpg">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>Hello,I'm Tejas.Welcome to my personal portfolio website! I am an aspiring BCA student based in Kottayam,currently studying at BVM College.
+                     This platform showcases my creative journey and highlights my skills and services in the field of computer applications.
+                      From web development,app development to UI/UX design,I aim to demonstrate my expertise and dedication to delivering exceptional digital solutions.
+                     Join me as I showcase my passion for technology and explore the possibilities of innovative and user-centric experiences.</p>
+
+                       <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                        <p class="tab-links" onclick="opentab('experience')"></p>
+                       </div>
+                       <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing Web/App Interfaces</li>
+                            <li><span>Web Development</span><br>Web App Development</li>
+                            <li><span>App Development</span><br>Building Android/iOS apps</li>
+                            <li><span>Photo Editing</span><br>Transforming ordinary snapshots into extraordinary masterpieces</li>
+                            <li><span>Video Editing</span><br>Unlocking the full potential of videos with expert video editing, utilizing industry-leading tools like 
+                                                          DaVinci Resolve, Premiere Pro, and After Effects.</li>
+                        </ul>
+                       </div>
+                       <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2024</span><br>BCA from BVM Cherpunkal</li>
+                            <li><span>2021</span><br>HSS in SMV NSS HSS Kallara</li>
+                            <li><span>2019</span><br>High School in St.Therese Public School Ayamkudy</li>
+                           
+                        </ul>
+                       </div>
+                       <div class="tab-contents" id="experience">
+                        <ul>
+                            
+                        </ul>
+                       </div>
+            </div>
+        </div>
+    </div>
+</div>
+ <!-- -----------services---------- -->
+ <div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Design</h2>
+                <p>Welcome to my premier Web Design service, where I turn your digital vision into a captivating reality. I understand the crucial role a well-designed website plays in establishing a strong online presence and engaging your target audience. With our expertise in web design, we create stunning and user-friendly websites that leave a lasting impression.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-crop-simple"></i>
+                <h2>UI/UX Design</h2>
+                <p>Elevate user experiences with my UI/UX design service. Combining creativity and technical skills,I provide expert UI/UX design services.I specialize in crafting visually captivating interfaces that prioritize user experience,usability,and modern design principles. Let me bring your digital products to life with an intuitive and engaging user interface.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-app-store"></i>
+                <h2>App Design</h2>
+                <p>Creating visually appealing and user-friendly mobile applications that enhance functionality and deliver seamless experiences,I offer professional app design services.With a focus on user experience,I create visually appealing and functional mobile applications that cater to the needs of your target audience. Let me transform your app idea into a captivating and seamless user experience.</p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+
+    </div>
+ </div>
+ <!-- -----------portfolio---------- -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Skills</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/c,cpp.jpg">
+                <div class="layer">
+                    <h3>C & C++ Programming</h3>
+                    <p>I have proficient grasp of C&C++ programming operating at an intermediate level of expertise..</p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/csshtml.jpg">
+                <div class="layer">
+                    <h3>HTML&CSS</h3>
+                    <p>I am proficient in HTML at an intermediate level and posses a basic knowledge of CSS.Thus allowing me create and structure web content effectively and to style and customize web content with fundamental proficiency.</p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/top-view-unrecognizable-hacker-performing-cyberattack-night.jpg">
+                <div class="layer">
+                    <h3>JavaScript</h3>
+                    <p>Equipped with a solid foundation in JavaScript, I am proficient in crafting interactive and dynamic web experiences that engage users and bring ideas to life.</p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+<!-- -----------contact---------- -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>contact:tejas.s7750@gmail.com</p>
+                <p><i class="fa-solid fa-square-phone"></i>0123456789</p>
+                <div class="social-icons">
+                    <a href="https://facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                    <a href=""><i class="fa-brands fa-square-twitter"></i></a>
+                    <a href=""><i class="fa-brands fa-square-instagram"></i></a>
+                    <a href=""><i class="fa-brands fa-telegram"></i></a>
+                </div>
+                <a href="images/my-cv.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+            <form name="submit-to-google-sheet">
+                <input type="text" name="Name" placeholder="Your Name" required>
+                <input type="email" name="Email" placeholder="Your Email" required>
+                <textarea name="Message"  rows="6" placeholder="Your Message"></textarea>
+                <button type="submit" class="btn btn2">Submit</button>
+            </form>
+            <span id="msg">hello</span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © 2023 by Tejas || All Rights reserved</p>
+    </div>
+</div>
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab")
+    }
+</script>
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+</script>
+
+  
+  <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycby6JhO3PYgfUWNQkZwC5znLupFXEYpe1I3oDP6yZyiWgUnuvZ0NSLcaL6wIC_W2Jv_LuA/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+    
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+        </body>
+</html>
